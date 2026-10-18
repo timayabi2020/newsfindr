@@ -20,6 +20,20 @@ __pycache__/
 # Jupyter temporary files
 .ipynb_checkpoints/
 
+# Local databases and SQLite journal files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+
 # Build and packaging artifacts
 build/
 dist/
